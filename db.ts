@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite';
+import * as SQLite from 'expo-sqlite'; 
 
 // Mở kết nối database
 export const db = SQLite.openDatabaseSync('expenses.db');
@@ -12,7 +12,7 @@ export const initDatabase = () => {
         db.execSync(`
       CREATE TABLE IF NOT EXISTS expenses (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        title TEXT NOT NULL, 
+        title TEXT NOT NULL,
         amount REAL NOT NULL,
         category TEXT,
         paid INTEGER DEFAULT 1,
