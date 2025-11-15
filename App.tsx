@@ -16,7 +16,7 @@ import {
 import { useEffect, useState } from 'react';
 import { initDatabase } from './db';
 import { Expense } from './types';
-import { useExpenses } from './useExpenses'; // Câu 10: Import custom hook
+import { useExpenses } from './useExpenses'; // Câu 10: Import custom hook 
 
 export default function App() {
     // Câu 10: Sử dụng custom hook
