@@ -59,7 +59,7 @@ export default function App() {
         setFormTitle('');
         setFormAmount('');
         setFormCategory('');
-        setModalVisible(true);
+        setModalVisible(true); 
     };
 
     // Câu 6: Mở Modal để sửa chi tiêu
