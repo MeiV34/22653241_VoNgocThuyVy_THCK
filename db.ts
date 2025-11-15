@@ -12,7 +12,7 @@ export const initDatabase = () => {
         db.execSync(`
       CREATE TABLE IF NOT EXISTS expenses (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        title TEXT NOT NULL,
+        title TEXT NOT NULL, 
         amount REAL NOT NULL,
         category TEXT,
         paid INTEGER DEFAULT 1,
