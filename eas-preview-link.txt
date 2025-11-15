@@ -1,0 +1,20 @@
+# EAS Preview Link
+
+## Hướng dẫn tạo EAS Preview Build
+
+1. Chạy lệnh: `eas build --platform android --profile preview`
+2. Đợi build hoàn tất (khoảng 10-20 phút)
+3. Copy link preview từ terminal và paste vào đây
+
+## Link Preview
+[Link sẽ được cập nhật sau khi chạy EAS build]
+
+## Ghi chú
+- File này sẽ chứa link preview sau khi build thành công
+- Bạn cần chạy lệnh EAS build để nhận link thực tế
+- Link có thể được chia sẻ để test ứng dụng trên thiết bị
+
+## Cách test
+1. Mở link trên thiết bị Android/iOS
+2. Tải xuống và cài đặt file APK/IPA
+3. Test tất cả các chức năng của ứng dụng
