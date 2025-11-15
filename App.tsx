@@ -53,7 +53,7 @@ export default function App() {
         return amount.toLocaleString('vi-VN') + 'đ';
     };
 
-    // Câu 4: Mở Modal để thêm chi tiêu mới
+    // Câu 4: Mở Modal để thêm chi tiêu mới 
     const openAddModal = () => {
         setEditingExpense(null);
         setFormTitle('');
