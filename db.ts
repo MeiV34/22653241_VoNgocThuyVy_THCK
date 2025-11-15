@@ -1,4 +1,4 @@
-import * as SQLite from 'expo-sqlite';  
+import * as SQLite from 'expo-sqlite';   
 
 // Mở kết nối database
 export const db = SQLite.openDatabaseSync('expenses.db');
